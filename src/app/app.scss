@@ -1,0 +1,343 @@
+ion-header {
+  position: absolute;
+  width: 100%;
+  height: 77px;
+  background: #F8F8F8;
+}
+
+ion-content {
+  position: relative !important;
+}
+
+.logout{
+  .straintab{
+    padding-top: 40px;
+  }
+}
+
+.avatar_img_01{
+  border-radius: 50%;
+}
+
+.fixed-content {
+}
+
+.myview {
+  background-color: black;
+}
+
+.pageBackground {
+  background-color: black;
+}
+
+.item {
+  background-color: transparent;
+}
+
+ion-item{
+  padding-left: 0 !important;
+}
+
+.menu-items {
+  background-color: black;
+  color: #fff !important;
+}
+
+.scroll-content {
+  padding: 0 !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.login-button {
+  margin-left: 14px;
+  margin-top: 15px;
+  width: 150px;
+  height: 40px;
+}
+
+.menu-lists {
+  color: #fff;
+  font-size: 21px;
+  font-weight: lighter;
+  padding: 10px 14px;
+  .input-wrapper{
+    height: 30px;
+  }
+
+  .item-inner{
+    min-height: unset !important;
+  }
+}
+
+.add-circle {
+  float: right;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.search {
+  float: right;
+  color: #fff;
+  font-size: 20px;
+
+}
+
+.signuploginbtn {
+  margin: 0 16px;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background: #d48416;
+  color: #fff !important;
+  text-align: center;
+  font: 12px Arial, sans-serif;
+  padding: 7px 0px 0;
+  margin: 0 14px;
+}
+
+.profileimg {
+  width: 83% !important;
+  height: 100% !important;
+  max-width: 100px !important;
+  max-height: 100px !important;
+  max-height: 100px !important;
+}
+
+.description {
+  font-size: 17px !important;
+}
+
+.username {
+  margin-left: 14px;
+  font-size: 21px;
+  font-weight: 100 !important;
+  margin-top: 0;
+}
+
+.sidebarnav {
+  padding: 4px;
+  background-size: cover;
+}
+
+.chat-icon {
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  bottom: 15px;
+  margin: 0px -13px;
+}
+
+.logo-menu {
+  height: 142px;
+  width: 130px;
+  margin: 37px -3px;
+}
+
+.follower {
+  background-color: black;
+}
+
+.item-input {
+  color: #fff;
+}
+
+.toolbar-title {
+  color: #fff !important;
+}
+
+.bgprofile {
+  background-color: black;
+}
+
+.chatlist {
+  color: #fff !important;
+}
+
+.alert-danger {
+  color: red;
+  font-size: 14px;
+  margin-left: 16px;
+  margin-top: 3px;
+  padding: 6px 0;
+}
+
+.row-border-bottom {
+  border-bottom: 1px solid #8e8e8e;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.custom-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff69;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-modal-box {
+  width: 90%;
+  padding: 10px;
+  background: #000000cc;
+  border-radius: 4px;
+  display: grid;
+  position: relative;
+}
+
+.custom-modal-header {
+  padding: 7px 0;
+  text-align: center;
+  color: #bef25c;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.9rem;
+}
+
+.custom-modal-body h3 {
+  font-size: 1.8rem;
+  color: #f2a335;
+  font-weight: 500;
+  font-family: sans-serif;
+  border-bottom: 1px solid #f2a335;
+}
+
+.custom-modal-body span {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.custom-modal-body .taggedUsersContainer {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  display: grid;
+  line-height: 30px;
+}
+
+ion-icon.close-custom-modal {
+  position: absolute;
+  top: -11px;
+  right: -8px;
+  color: #dd8b19;
+  font-size: 3.7rem;
+}
+
+@font-face {
+  font-family: 'Myriad-Pro';
+  src: url('../assets/fonts/MYRIADPRO-BOLD.OTF');
+}
+
+ion-label,
+label,
+a,
+div,
+ion-segment-button {
+  font-family: Myriad-Pro !important;
+}
+
+ion-fab {
+  position: absolute;
+
+  button {
+    float: right !important;
+
+    i.fa {
+      font-size: 15px;
+    }
+  }
+}
+
+.ion-text-start::first-letter {
+  text-transform: capitalize !important;
+}
+
+.col {
+  padding: 0 !important;
+}
+//
+//@media(max-height : 500px){
+//  .hide-on-keyboard-open{
+//    display: none;
+//  }
+//
+//  .fixed-content{
+//    margin-bottom: 0 !important;
+//  }
+//}
+
+.showCouponCss{
+  .alert-wrapper{
+    background-color: black;
+    border: 2px solid white;
+    max-width: 90%;
+    width: 75%;
+  }
+  .alert-message{
+    // min-height: 100%;
+    max-height: unset;
+  }
+  .alert-message, .alert-input-group{
+    padding: 15px;
+    // padding-bottom: 0;
+  }
+  .alert-head{
+    display: none;
+  }
+
+  // /content css______________________________
+  .avatar_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  h5{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #efa720;
+  }
+  .desc{
+    margin-bottom: 60px;
+  }
+  p{
+    font-size: 15px;
+    margin: 0;
+    color: #fff;
+    line-height: 1;
+    padding-left: 5px;
+  }
+  .label-md{
+    margin: 0;
+  }
+  .content{
+    position: relative;
+    padding: 5px;
+    padding-left: 2px;
+    text-align: center;
+    height: 100%;
+  }
+
+  .alert-button-group{
+    padding: 0;
+    display: none;
+  }
+  .bottom_logo{
+    width: 120px;
+    height: auto;
+    padding-left: 6px;
+  }
+}

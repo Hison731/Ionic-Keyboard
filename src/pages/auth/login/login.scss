@@ -1,0 +1,63 @@
+page-login {
+	// img {
+	// 	height: 100%;
+	// 	width: 80%;
+	// }
+
+  .logo-image{
+    height: 60px;
+    padding: 10px;
+    img{
+      width: 50%;
+      margin: auto;
+    }
+  }
+
+	.login {
+    padding-left: 16px;
+
+    .item-input{
+  		padding-right : 16px !important;
+  	}
+	}
+	.register {
+		margin: 16% auto !important;
+		color: color($colors, light);
+		text-align: center;
+		font-size: 20px;
+		font-weight: 200;
+	}
+
+	.forgot_password{
+		.forgetpassword{
+			color: white;
+			font-size: 18px;
+			// padding-left: 16px;
+			text-align: center;
+			margin-bottom: 0;
+		}
+
+    .forgot{
+      padding-left: 16px;
+    }
+
+		ion-item{
+			padding-right: 16px;
+		}
+	}
+
+	.signuploginbtn{
+		height: 50px !important;
+		margin-top: 5px;
+	}
+
+	.register{
+		font-size: 18px;
+	}
+
+
+
+	// button {
+	// 	background-image: linear-gradient(to bottom, #e8c451, #d48416);
+	// }
+}
